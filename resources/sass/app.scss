@@ -6,3 +6,23 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+//Header
+
+.main-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:15vh;
+    background-color:#0D6EFD;
+}
+.main-title{
+    text-align:center;
+    color:white;
+}
+
+//Cards
+
+.vote{
+    background-color:#C9DEFD;
+}
