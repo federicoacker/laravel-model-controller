@@ -22,7 +22,27 @@
 }
 
 //Cards
-
+.card{
+    min-height:300px;
+}
 .vote{
-    background-color:#C9DEFD;
+    background-color:#272B2F;
+    color:white;
+    padding: 0.2rem 0.5rem;
+    justify-content:start;
+    align-items:center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.vote-star{
+    width:20px;
+    aspect-ratio:1;
+}
+
+//Index
+
+.main-section{
+    width:100%;
+    min-height: 85vh;
+    background-color: #2E2E2E;
 }
